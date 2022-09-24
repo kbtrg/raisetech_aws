@@ -28,7 +28,7 @@ sudo sed -i -e "s/RPM-GPG-KEY-mysql/RPM-GPG-KEY-mysql-2022/g" /etc/yum.repos.d/m
 MYSQL_PACKAGE_URL="https://dev.mysql.com/get/$(curl https://dev.mysql.com/downloads/repo/yum/ | grep el7 | cut -d'(' -f2 | cut -d')' -f1)"
 sudo yum localinstall -y $MYSQL_PACKAGE_URL
 sudo yum install -y mysql-community-devel
-sudo yum install -y mysql-community-server
+sudo yum install -y mysql-community-server # データベースを構築(RDSなどでデータベースを用意する場合は使わない)
 
 # MySQLサーバーの起動＆確認
 sudo service mysqld start && sudo service mysqld status

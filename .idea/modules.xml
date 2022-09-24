@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/raisetech-live8-sample-app.iml" filepath="$PROJECT_DIR$/.idea/raisetech-live8-sample-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/raisetech_aws.iml" filepath="$PROJECT_DIR$/.idea/raisetech_aws.iml" />
     </modules>
   </component>
 </project>
